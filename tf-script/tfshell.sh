@@ -1,6 +1,7 @@
 #!/bin/bash
 
-chmod +x mv /home/pankhuri.kumari/Downloads 2> /dev/null /usr/local/bin 2> /dev/null
+chmod +x  $HOME/Downloads/tfshell.sh 2> /dev/null
+mv $HOME/Downloads/tfshell.sh /usr/local/bin/tfshell.sh 2> /dev/null
 
 echo "Enter the Module Name: "
 #Read User Input
