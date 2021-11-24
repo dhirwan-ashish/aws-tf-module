@@ -1,7 +1,8 @@
 #!/bin/bash
 
-chmod +x  $HOME/Downloads/tfshell.sh 2> /dev/null
-mv $HOME/Downloads/tfshell.sh /usr/local/bin/tfshell.sh 2> /dev/null
+var=$(pwd)
+chmod +x  $var/tfshell.sh 2> /dev/null
+sudo mv $var/tfshell.sh /usr/local/bin/tfshell.sh
 
 echo "Enter the Module Name: "
 #Read User Input
